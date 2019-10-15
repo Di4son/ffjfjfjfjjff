@@ -1,0 +1,134 @@
+2) namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите первое число");          
+            string s = Console.ReadLine();
+            Console.WriteLine("Введите второе число");
+            string f = Console.ReadLine();
+            int num1 = Convert.ToInt32(s);
+            int num2= Convert.ToInt32(f);
+            if (num1 > num2)
+            {
+                Console.WriteLine("Ответ:"); 
+                Console.WriteLine(num1);
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Ответ:");  
+                Console.WriteLine(num1);
+                Console.WriteLine(num2);
+                Console.ReadLine();
+            }
+            
+           
+            
+        }
+    }
+}
+
+
+
+3) namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите ваш рост");          
+            string s = Console.ReadLine();     
+            int num1 = Convert.ToInt32(s);         
+            if (num1 > 180)
+            {
+                Console.WriteLine("Высокий");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Не очень высокий");               
+                Console.ReadLine();
+            }
+            
+           
+            
+        }
+    }
+}
+
+
+
+
+
+4) namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите ваш возраст");          
+            string s = Console.ReadLine();     
+            int num1 = Convert.ToInt32(s);         
+            if (num1 >= 18)
+            {
+                Console.WriteLine("Замечательно. Вы уже можете водить автомобиль.");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("К сожалению, водить автомобиль Вам рановато.");               
+                Console.ReadLine();
+            }
+            
+           
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+5) namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите первое число");          
+            string a = Console.ReadLine();     
+            int num1 = Convert.ToInt32(a);
+            Console.WriteLine("Введите второе число");
+            string b = Console.ReadLine();
+            int num2 = Convert.ToInt32(b);
+            Console.WriteLine("Введите третье число");
+            string c = Console.ReadLine();
+            int num3 = Convert.ToInt32(c);
+            if (num1 > num2)
+            {
+                Console.WriteLine("Наибольшее число = " + a);
+            }
+            else if (num3 > num2)
+            {
+                Console.WriteLine("Наибольшее число = " + c);
+            }
+            else if (num1 > num3)
+            {
+                Console.WriteLine("Наибольшее число = " + b);
+            }
+            else 
+            { 
+
+            }
+            Console.ReadLine();
+           
+            
+        }
+    }
+}
